@@ -2,6 +2,8 @@
 <manifest>
   <remote name="github"
           fetch="https://github.com/" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
 
    <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -125,4 +127,7 @@
   <project name="AOSP-on-Cannon/device_xiaomi_cannon-kernel" path="device/xiaomi/cannon-kernel" remote="github" revision="android-12" />
   <project name="AOSP-on-Cannon/vendor_xiaomi_cannon" path="vendor/xiaomi/cannon" remote="github" revision="android-12" />
   <project name="StatixOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc" />
+
+  <!-- Extensions -->
+  <project name="mvaisakh/vendor_extensions" path="vendor/extensions" remote="gitlab" revision="android-12" />
 </manifest>
