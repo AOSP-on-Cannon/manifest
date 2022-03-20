@@ -174,6 +174,7 @@
   <project name="StatixOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc" />
 
   <!-- Extensions -->
-  <project name="mvaisakh/vendor_extensions" path="vendor/extensions" remote="gitlab" revision="android-12" />
+  <project name="AOSP-on-Cannon/vendor_extensions" path="vendor/extensions" remote="github" revision="android-12" />
+  <project name="mvaisakh/vendor_apps" path="vendor/apps" remote="gitlab" revision="android-12" />
   <project name="GrapheneOS/platform_external_Camera" path="external/Camera" remote="github" revision="12.1" />
 </manifest>
