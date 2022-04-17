@@ -71,6 +71,10 @@
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
 
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
@@ -179,4 +183,8 @@
   <project name="AOSP-on-Cannon/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="android-12" />
   <project name="mvaisakh/vendor_apps" path="vendor/apps" remote="gitlab" revision="android-12" />
   <project name="GrapheneOS/platform_external_Camera" path="external/Camera" remote="github" revision="12.1" />
+
+  <!-- IMS -->
+  <project name="AOSP-on-Cannon/frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="github" revision="android-12" />
+  <project name="AOSP-on-Cannon/frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="android-12" />
 </manifest>
