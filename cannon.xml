@@ -135,7 +135,6 @@
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/TvSettings" />
@@ -180,9 +179,9 @@
 
   <!-- Extensions -->
   <project name="AOSP-on-Cannon/vendor_extensions" path="vendor/extensions" remote="github" revision="android-12" />
-  <project name="AOSP-on-Cannon/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="android-12" />
   <project name="mvaisakh/vendor_apps" path="vendor/apps" remote="gitlab" revision="android-12" />
   <project name="GrapheneOS/platform_external_Camera" path="external/Camera" remote="github" revision="12.1" />
+  <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
   <!-- IMS -->
   <project name="AOSP-on-Cannon/frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="github" revision="android-12" />
