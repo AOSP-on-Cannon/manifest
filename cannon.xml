@@ -179,7 +179,7 @@
 
   <!-- Extensions -->
   <project name="AOSP-on-Cannon/vendor_extensions" path="vendor/extensions" remote="github" revision="android-12" />
-  <project name="mvaisakh/vendor_apps" path="vendor/apps" remote="gitlab" revision="android-12" />
+  <project name="aosp-on-cannon/vendor_bromite" path="vendor/bromite" remote="gitlab" revision="android-12" />
   <project name="GrapheneOS/platform_external_Camera" path="external/Camera" remote="github" revision="12.1" />
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
