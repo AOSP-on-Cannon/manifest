@@ -140,6 +140,7 @@
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
@@ -176,6 +177,9 @@
   <project name="AOSP-on-Cannon/device_xiaomi_cannon-kernel" path="device/xiaomi/cannon-kernel" remote="github" revision="android-12" />
   <project name="AOSP-on-Cannon/vendor_xiaomi_cannon" path="vendor/xiaomi/cannon" remote="github" revision="android-12" />
   <project name="StatixOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc-v2" />
+  
+  <!-- Packages -->
+  <project name="GrapheneOS/android_packages_inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-19.1" />
 
   <!-- Extensions -->
   <project name="AOSP-on-Cannon/vendor_extensions" path="vendor/extensions" remote="github" revision="android-12" />
