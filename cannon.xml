@@ -179,7 +179,7 @@
   <project name="StatixOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="sc-v2" />
   
   <!-- Packages -->
-  <project name="GrapheneOS/android_packages_inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-19.1" />
+  <project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-19.1" />
 
   <!-- Extensions -->
   <project name="AOSP-on-Cannon/vendor_extensions" path="vendor/extensions" remote="github" revision="android-12" />
